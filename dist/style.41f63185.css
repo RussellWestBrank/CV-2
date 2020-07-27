@@ -137,7 +137,7 @@ main {
     font-size: medium; 
     box-sizing: border-box; 
     color: rgb(255, 102, 0); 
-    font-family:  &quot;Microsoft YaHei&quot
+    font-family:  &quot;Microsoft YaHei&quot;
 }
 
 @media (max-width: 768px) {
@@ -156,3 +156,5 @@ main {
         height: 100px;
     }
 }
+
+/*# sourceMappingURL=style.41f63185.css.map */
