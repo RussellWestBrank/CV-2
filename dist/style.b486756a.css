@@ -137,7 +137,23 @@ main {
     font-size: medium; 
     box-sizing: border-box; 
     color: #0984e3; 
-    font-family:  &quot;Microsoft YaHei&quot
+    font-family: &quot;Microsoft YaHei&quot
+}
+.img-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left:120px
+}
+
+.img-wrapper img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -148,7 +164,7 @@ main {
 
     aside {
         width: 100%;
-        padding-top: 0px;
+
     }
 
     aside .avatar img {
@@ -157,4 +173,4 @@ main {
     }
 }
 
-/*# sourceMappingURL=style.1b635c7c.css.map */
+/*# sourceMappingURL=style.b486756a.css.map */
