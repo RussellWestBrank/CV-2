@@ -23,7 +23,7 @@ body {
 
 header {
     background: #2c3e50;
-    width: 100%; 
+    min-width: 100%; 
     text-align: center;
     padding: 0px 0 10px 0;
     color: #fff;
@@ -193,11 +193,17 @@ main {
     height: 100px;
     margin-left:120px
 }
+.mosaic {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-left:75px  
+}
  .qrcode{
     position: relative;
     width: 200px;
     height: 100px;
-    margin-left:100px
+    margin-left:120px
 }
 .img-wrapper img {
     position: absolute;
@@ -232,7 +238,7 @@ main {
 @media (max-width: 768px) {
     header {
         padding-top: 20px;
-        padding-bottom: 90px;
+        padding-bottom: 10px;
     }
 
     aside {
@@ -241,8 +247,8 @@ main {
     }
 
     aside .avatar img {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
     }
 }
   img {
@@ -256,4 +262,4 @@ main {
   }
   
 
-/*# sourceMappingURL=style.395df92f.css.map */
+/*# sourceMappingURL=style.3559d5d3.css.map */
