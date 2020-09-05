@@ -1,0 +1,27 @@
+body {
+  /*background: transparent;*/
+  width: 100%;
+}
+
+.layout {
+  width: 100vw;
+}
+
+/* header */
+
+header .resume-link {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: block;
+}
+
+header .resume-link a {
+  color: white;
+}
+@page {
+  size: A4;
+}
+
+
+/*# sourceMappingURL=/print.6ceb2f46.css.map */
